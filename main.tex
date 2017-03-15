@@ -44,6 +44,7 @@ TODO(ilijar): Notation, Conventions etc
     &= c^{n} \, \determ{\mat A}
 \end{align}
 
+\newpage
 %------------------------------------------------------------------------------
 % Derivatives.
 %------------------------------------------------------------------------------
@@ -77,6 +78,11 @@ TODO(ilijar): Notation, Conventions etc
 \begin{align}
   \frac{\partial \tr{\mat A \mat X\inv \mat B}}{\partial \mat X}
     = -(\mat X\inv)\T \mat A\T \mat B\T (\mat X\inv)\T
+\end{align}
+
+\begin{align}
+  \frac{\partial \tr{\mat X\T \mat B \mat X \mat C}}{\partial \mat X}
+    = \mat B \mat X \mat C + \mat B\T \mat X \mat C\T
 \end{align}
 
 \newpage
