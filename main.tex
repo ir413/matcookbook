@@ -55,6 +55,11 @@ TODO(ilijar): Notation, Conventions etc
 \end{align}
 
 \begin{align}
+  \frac{\partial \vec a\T \mat X \vec b}{\partial \mat X}
+    = \vec a \vec b\T
+\end{align}
+
+\begin{align}
   \frac{\partial \vec a\T \mat X\inv \vec b}{\partial \mat X}
     = - (\mat X\inv)\T \vec a \vec b\T (\mat X\inv)\T
 \end{align}
@@ -62,6 +67,11 @@ TODO(ilijar): Notation, Conventions etc
 \begin{align}
   \frac{\partial \determ{\mat X}}{\partial \mat X}
     = \determ{\mat X} (\mat X\inv)\T
+\end{align}
+
+\begin{align}
+  \frac{\partial \tr{\mat B \mat X\T \mat X}}{\partial \mat X}
+    = \mat X \mat B\T + \mat X \mat B
 \end{align}
 
 \newpage
