@@ -14,8 +14,31 @@
 
 \maketitle
 
+%------------------------------------------------------------------------------
+% Introduction.
+%------------------------------------------------------------------------------
+\section{Introduction}
+TODO(ilijar): Notation, Conventions etc
+
+%------------------------------------------------------------------------------
+% Derivatives.
+%------------------------------------------------------------------------------
 \section{Derivatives}
 
-TODO
+\begin{align}
+  \frac{\partial \vec x\T \mat A \vec x}{\partial \vec x}
+    = (\mat A + \mat A\T) \vec x
+\end{align}
+
+\begin{align}
+  \frac{\partial \vec a\T \mat X\inv \vec b}{\partial \mat X}
+    = - (\mat X\inv)\T \vec a \vec b\T (\mat X\inv)\T
+\end{align}
+
+\begin{align}
+  \frac{\partial \determ{\mat X}}{\partial \mat X}
+    = \determ{\mat X} (\mat X\inv)\T
+\end{align}
+
 
 \end{document}
