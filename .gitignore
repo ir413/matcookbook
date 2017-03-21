@@ -8,3 +8,4 @@
 *.log
 *.run.xml
 *.swp
+.DS_Store
